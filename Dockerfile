@@ -14,7 +14,6 @@ RUN pip install --no-cache-dir accelerate
 RUN pip install --no-cache-dir gunicorn
 
 COPY main.py main.py
-COPY img_2.jpg img_2.jpg
 
 EXPOSE 7982
 
